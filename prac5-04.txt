@@ -1,0 +1,9 @@
+After watching the Sessions Tutorials answer the following:
+
+:question:What function do we use to start a session?
+
+The function we use to start session is "session_start();"
+
+:question:Where are these session variables stored? 
+
+The session variables is stored in server. 
