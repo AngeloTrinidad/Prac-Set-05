@@ -2,7 +2,7 @@
 // set cookies
     if(isset($_POST['name']) && isset($_POST['password'])){
         $val = 'ok';
-        setcookie('auth', $val);
+        setcookie('auth', $val, time()+3600);
 
         header("Location: loggedin.php");
     }else{
